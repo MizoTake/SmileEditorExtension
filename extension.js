@@ -28,7 +28,7 @@ function activate(context) {
                             }
                         } else {
                             if(json.error.message == "Access denied due to invalid subscription key. Make sure you are subscribed to an API you are trying to call and provide the right key.") {
-                                vscode.window.showInformationMessage("Pleaze, add emotins.key to settings.json");
+                                vscode.window.showInformationMessage("Add emotins.key to settings.json");
                                 return;
                             }
                         }
@@ -38,8 +38,8 @@ function activate(context) {
         }
 
     var changeText = vscode.workspace.onDidChangeTextDocument(function(event) {
-        if(emotions.get('key') != "") cnt += 1;
-        if(cnt % 8 == 0 && cnt != 0) {
+        cnt += 1;
+        if(cnt % 9 == 0 && cnt != 0) {
             vscode.window.showInformationMessage("Let's Smile!!");
         }
         if(cnt % 10 == 0 && cnt != 0) {
