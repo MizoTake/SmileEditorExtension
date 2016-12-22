@@ -10,9 +10,9 @@ It's joke extensions
 
 after installation to 6 step 
 
-1. connect pc to webcam 
+1. connect webcam to pc 
 
-2. access to Microsft's Emotion API [https://www.microsoft.com/cognitive-services/en-us/emotion-api](https://www.microsoft.com/cognitive-services/en-us/emotion-api)  
+2. access to Microsoft's Emotion API [https://www.microsoft.com/cognitive-services/en-us/emotion-api](https://www.microsoft.com/cognitive-services/en-us/emotion-api)  
 
 3. get Account and API key 
 
